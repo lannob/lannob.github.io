@@ -1,0 +1,39 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+}
+
+ .background{
+background-image:url(pictures/Laptop2.jpg) ;
+background-position: center;
+height:100%;
+background-size: cover;   
+}
+
+ .btn-outline-primary {
+    position:absolute;
+    left: 55%;
+    top:75%;
+    width: 250px;
+    height: 60px;
+    transform: rotate(-20deg);
+    color:rgb(66, 209, 235);
+    border-color:rgb(66, 209, 235) ;
+}
+
+h2{
+    position:absolute;
+    left: 30%;
+    top:9%;
+    transform: rotate(-12deg);
+    color: rgb(66, 209, 235); 
+    font-weight: bolder;
+}
+
+.btn-outline-primary:hover{
+    background-color:rgb(66, 209, 235);
+    color: blanchedalmond;
+}
